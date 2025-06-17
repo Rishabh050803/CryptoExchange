@@ -200,6 +200,9 @@ async def cmd_stop_all_arb(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def cmd_arb_stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """
+    This displays historical arbitrage checks:
+    It computes max spread and average spreads, total opportunities, and formats everything into a clean 
+    Markdown summary — categorized by exchange pairs.
     Handle the /arb_stats command - display statistics for monitored arbitrage pairs.
     
     Args:
