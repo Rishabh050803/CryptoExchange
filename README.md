@@ -128,7 +128,7 @@ Implements user interface and logic including:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/GoQuantProject.git
+git clone https://github.com/Rishabh050803/GoQuantProject.git
 cd GoQuantProject
 ```
 
